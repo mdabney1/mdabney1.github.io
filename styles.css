@@ -1,0 +1,162 @@
+/* Your Code Here! */
+body,html{
+	height: 100px;
+	margin:0px;
+	width:100%;
+	background-color:snow;
+}
+
+.header{
+	width:100%;
+	background-color:white;
+	padding:4px;
+	position: relative;
+}
+
+h1{
+	text-align: center;
+	font-family: papyrus;
+	color:dimgrey;
+}
+
+hr{
+	border-top:2px solid dimgrey;
+	background-color: white;
+}
+
+h2{
+	text-align: center;
+}
+
+a{
+	color:dimgrey;
+	font-family:papyrus;
+}
+
+a:link{
+	text-decoration: none
+}
+
+img{
+	width:100px;
+	height:100px;
+	position: absolute;
+}
+
+.nav{
+
+}
+
+h3{
+	font-family:papyrus;
+	color:dimgrey;
+	border-bottom-style:dotted;
+	border-right-style:none;
+	border-top-style:none;
+	border-left-style:none;
+	margin-left:10px;
+}
+
+.red{
+	color: palevioletred;
+	font-weight: bold;
+	margin-left:30px;
+}
+
+.bold{
+	line-height: 1.6px;
+	font-weight:bold;
+	margin-left:30px;
+}
+
+ul{
+	margin-left:45px;
+}
+
+.aboutinfo{
+	padding:70px;
+	background-color:lavenderblush;
+	margin:40px;
+}
+
+.resumeheader{
+	font-family: papyrus;
+	text-align: left;
+	color: dimgrey;
+	text-decoration: underline;
+	line-height: 1.6px;
+}
+
+.motivation{
+	color:dimgrey;
+	text-indent:50px;
+}
+
+#headshot{
+	width:200px;
+	height:250px;
+	margin-left: calc(38% - 100px);
+}
+
+#resume{
+	margin-left:50px;
+	width: 350px;
+	height:200px;
+}
+
+#webtitles{
+	font-size: 20px;
+	margin-left:50px;
+	text-decoration: underline;
+	color:dimgrey;
+	font-family: papyrus;
+}
+
+#samstagram1{
+	margin-left:630px;
+	width:350px;
+	height:200px;
+}
+
+#font{
+	color:palevioletred;
+}
+
+#side{
+	transform:rotate(90deg);
+	width:250px;
+	height:175px;
+	margin:2px;
+}
+
+#side2{
+	width:250px;
+	height:175px;
+	margin-left:785px;
+}
+
+#side3{
+	width:250px;
+	height:175px;
+	margin-left:250px;
+	transform:rotate(90deg);
+}
+
+#side4{
+	width:250px;
+	height:175px;
+	margin-left:500px;
+	transform:rotate(90deg);
+}
+
+#soph2{
+	width:500px;
+	height:400px;
+	margin-left: calc(38% - 200px)
+}
+
+#headshot2{
+	width:470px;
+	height:550px;
+	margin-left: calc(38% - 90px);
+}
