@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- Your Code Here -->
+        <div class='header'><!-- connects the two html files together-->
+    		<p id='transfer'><a href='index.html' class='nav'> News Feed </a></p>
+    		SAMS-tagram
+    	</div>
+
+    	<div class='profile'><!-- creates the biography section-->
+    		<h3> Name</h3>
+    		<p id='nameInfo'> Andrew Carnegie </p>
+    			<br>
+    		<h3 id='photoInfo'> Photo</h3>
+    		<img src='https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNTc1NTc2MDc3/andrew-carnegie-9238756-1-402.jpg' alt='Andrew Carnegie' id='andrew'>
+    		<h3> Bio </h3>
+    		<p id="bioInfo"> I'm a Scottish-American industiralist, business magnate, and philanthropist. I led the expansion of the American steel industry in the late 19th century and  became one of the richest Americans in history. I also became a leading philanthropist in the United States and the British Empire. During the last 18 years of my life, I away about $350 million to charities, foundarions, and universities - almost 90 percent of my fortune. My 1889 article proclaiming "The Gospel of Wealth" called on the rich to use their wealth to improve society, and stimulated a wave of philanthropy. </p>
+    		<br><br><br><br><br>
+    		<h2> Edit Profile </h2>
+    		<form id='form2'><!--creates the text boxes and submit button-->
+    			Name <input type='text' id='name'><br>
+    			Image URL<input type='text' id='imageedit'><br>
+    			Bio<input type='text' id='bio'><br>
+    			<input type='submit' id='save' value='Save'>
+    		</form> 
+    		<!--connects the javascript file-->
+    			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    			<script src='profile.js'></script>
+    </body>
+</html>

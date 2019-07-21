@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home</title>
+        <title>SAMStagram</title>
 
         <link href="styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-
-        <!-- Your Code Here -->
-        <div class='header'>
-        <a href='index.html'><img src='logo.png' alt='MDABNEY LOGO' class='nav'></a><h1 class='nav'> Madison Dabney's Portfolio </h1>
+    	<!-- Your Code Here -->
+    	<div class='header'>
+    		<p id='transfer'><a href='profile.html' class='nav'> Profile </a></p>
+    		SAMS-tagram
     	</div>
 
-    	<hr>
+    	<div class='post'>
+    		<h2> New Post! </h2>
 
-        <h2><a href='index.html'> Home : </a> <a href='about.html'> About Me : </a> <a href='portfolio.html'>Computer Science : </a> <a href='Theatre.html'>Theatre </a></h2>
+    		<form id='form1'>
+    			Image URL
+    			<br>
+    			<input type='text' id='image'><br><br>
+    			Caption
+    			<br>
+    			<input type='text' id='caption'><br>
+    			<input type='submit' id='submit' value='Post'>
+    		</form>
+    	</div>
+    	<div id='container'>
+    	</div>
+        <!--connects to the javascript file -->
+    		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    		<script src='index.js'></script>
 
     </body>
 </html>
