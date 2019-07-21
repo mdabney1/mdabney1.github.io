@@ -1,0 +1,38 @@
+body {background:gray;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right:0px;
+	font-family: arial;
+	margin-bottom: 0px;
+}
+.header{
+	background-color: black;
+	color:white;
+	text-align: center;
+	font-size: 40px;
+}
+.space{
+	color:gray;
+	background-color: gray;
+	font-size: 30px;
+}
+.whitebox{
+	color:white;
+	background-color: white;
+	font-size: 65px;
+}
+.bill{
+background-color: lightgray;
+padding-left: 5px;
+padding-right:5px;
+padding-top: 15px;
+padding-bottom: 3px;
+margin-bottom: 0px;
+}
+.margin{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+a:link{
+	color:blue;
+}

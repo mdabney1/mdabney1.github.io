@@ -1,0 +1,21 @@
+body{
+	font-family: Arial;
+	margin:0px;
+}
+.header{
+	background-color: lightgray;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.name{
+	margin-top: 0px;
+}
+.container{
+	margin-right: 10%;
+	margin-left:10%;
+}
+.info{
+	margin-right: 20%;
+	margin-left:20%;
+}

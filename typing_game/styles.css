@@ -1,0 +1,10 @@
+#container {
+    position: relative;
+    height:100%;
+}
+body{
+	font-family: papyrus;
+	font-weight: bold;
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+/*https://w3bits.com/rainbow-text/ for the rainbow background*/

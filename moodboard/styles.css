@@ -1,0 +1,8 @@
+#container {
+    position: relative;
+    height:100%;
+}
+body{
+	background-image: linear-gradient(to right,deeppink,mediumvioletred,hotpink,lightpink,pink,hotpink,deeppink,mediumvioletred);
+	border-style:double;
+}
